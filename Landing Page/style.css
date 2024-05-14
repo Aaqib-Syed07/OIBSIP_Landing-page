@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(55, 54, 54);
+}
+.header{
+    width: 100%;
+    height: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/header-image.png');
+    padding: 20px 12%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 150px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 35px;
+    padding:0 10px;
+    border-radius: 5px;
+    color:white;
+    background-color: red;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button img{
+    width: 20px;
+}
+
+.btn-english{
+    width: 120px;
+    margin-right: 15px;
+    background-color: transparent;
+    border-style: groove;
+    border-width: 0.5px;
+    border-color: white;
+}
+
+button .down-arrow{
+    width: 10px;
+}
+.message{
+    color:white;
+    margin-top:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 60px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 22px;
+}
+.form{
+    display: flex;
+}
+.form button{
+    margin-left: 5px;
+}
+.form input[type="text"]{
+    width: 350px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.4);
+    border-style: groove;
+    border-radius: 5px;
+    border-color: white;
+}
+.form input[type="text"]::placeholder{
+    color:rgb(173, 172, 172);
+    font-size: 16px;
+    padding-left: 15px;
+}
+.form button{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.slide{
+    margin-top:8px;
+    background-color: black;
+    color: white;
+    padding: 60px 12%;
+    display: flex;
+    align-items: center;
+}
+.slide img{
+    width: 500px;
+}
+.slide p{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.footer{
+    background-color: black;
+    margin-top: 8px;
+    padding: 60px 12%;
+    color:rgb(183, 181, 181);
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.footer .question{
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer span{
+    text-decoration: underline;
+}
+.middle{
+    margin-top: 6%;
+}
+.right{
+    margin-top: 6%;
+}
+.butn-english{
+    width: 120px;
+    margin-right: 15px;
+    background-color: transparent;
+    border-style: groove;
+    border-width: 0.5px;
+    border-color: white;
+}
+.butns{
+    display: flex;
+    padding-top: 40px;
+}
+.india{
+    padding-top: 20px; 
+}
